@@ -1,0 +1,33 @@
+{
+  "name": "mernstackudemy",
+  "version": "1.0.0",
+  "description": "Social network for developers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txross1993/MERNStackUdemy.git"
+  },
+  "author": "Thea Ross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/txross1993/MERNStackUdemy/issues"
+  },
+  "homepage": "https://github.com/txross1993/MERNStackUdemy#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "validator": "^10.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
