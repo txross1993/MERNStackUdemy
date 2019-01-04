@@ -1,4 +1,14 @@
-const express = require('express');
+//Auth
+const express = require("express"); // To use the router, you must bring in express first
 const router = express.Router();
 
-router.get('/test');
+// @route   GET api/users/test
+// @desc    Tests users route
+// @access  Public
+router.get("/test", (req, res) =>
+  res.json({
+    msg: "Users works"
+  })
+); //Returns a 200 status
+
+module.exports = router;
